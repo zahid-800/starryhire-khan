@@ -726,6 +726,14 @@ a:hover {
 .how_we_do_img img{
     border-radius: 20px;
 }
+@media (max-width:991px) {
+    .how_we_do_img img {
+        display: none;
+    }
+    .howwe_framework .h-content p{
+        width: 100%;
+    }
+}
 @media (max-width:576px){
     .h-content h1{
         font-size: 22px;
